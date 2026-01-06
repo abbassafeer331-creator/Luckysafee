@@ -1,33 +1,99 @@
-<!DOCTYPE html>
+; <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abbas Safeer | Portfolio</title>
+    <title>Safeer EditX Portfolio</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: white; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
-        .card { background: #1e1e1e; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.7); width: 100%; max-width: 350px; padding: 30px; text-align: center; border: 1px solid #333; }
-        .profile-pic { width: 150px; height: 150px; border-radius: 50%; border: 4px solid #1877f2; object-fit: cover; margin-bottom: 20px; box-shadow: 0 0 20px rgba(24, 119, 242, 0.4); }
-        h1 { font-size: 26px; margin: 10px 0; color: #fff; letter-spacing: 1px; }
-        .tagline { color: #1877f2; font-weight: bold; text-transform: uppercase; font-size: 12px; margin-bottom: 15px; display: block; }
-        p { color: #aaa; font-size: 14px; line-height: 1.6; margin-bottom: 25px; }
-        .btn-fb { background-color: #1877f2; color: white; text-decoration: none; padding: 14px 20px; border-radius: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold; transition: 0.3s; gap: 10px; }
-        .btn-fb:hover { background-color: #166fe5; transform: translateY(-3px); box-shadow: 0 5px 15px rgba(24, 119, 242, 0.3); }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            padding: 60px 20px;
+            background: linear-gradient(to bottom, #1a1a1a, #0a0a0a);
+        }
+        /* Profile Image */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+            box-shadow: 0 0 15px #007bff;
+            object-fit: cover;
+        }
+        h1 { margin: 15px 0 5px; font-size: 32px; letter-spacing: 1px; }
+        .tagline { color: #007bff; font-weight: bold; margin-bottom: 20px; display: block; }
+        .description { color: #bbb; line-height: 1.6; padding: 0 20px; }
+
+        /* Floating Action Buttons */
+        .fab-container {
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 999;
+        }
+        .fab {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+        .fab:hover { transform: scale(1.1); }
+        .wa { background-color: #25D366; } /* WhatsApp Green */
+        .fb { background-color: #1877F2; } /* Facebook Blue */
+        .call { background-color: #333; }   /* Call Dark Gray */
+
+        .main-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 35px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <img src="https://i.ibb.co/6R8m4YvH/Screenshot-20260106-040509.jpg" class="profile-pic" alt="Abbas Safeer">
-        
-        <span class="tagline">Expert Photo & Video Editor</span>
-        <h1>Abbas Safeer</h1>
-        <p>Creative designs aur high-quality video editing ke liye mere Facebook page par rabta karein aur mera kaam dekhein.</p>
-        
-        <a href="https://www.facebook.com/share/17HoY7ere9/" class="btn-fb">
-            Visit My Facebook
-        </a>
-    </div>
+<div class="header">
+    <img src="https://i.ibb.co/Lz7S8Xf/safeer-profile.jpg" alt="Safeer Abbas" class="profile-img">
+    
+    <h1>Safeer Abbas</h1>
+    <span class="tagline">EXPERT PHOTO & VIDEO EDITOR</span>
+    
+    <p class="description">
+        Creative designs aur high-quality video editing ke liye mujhse rabta karein.<br>
+        Main aapke kaam ko professional look dene mein madad karta hoon.
+    </p>
+
+    <a href="https://www.facebook.com/profile.php?id=100085188164057" class="main-btn">Visit My Facebook</a>
+</div>
+
+<div class="fab-container">
+    <a href="https://wa.me/923421033637" class="fab wa" title="WhatsApp Chat">WA</a>
+    
+    <a href="https://www.facebook.com/profile.php?id=100085188164057" class="fab fb" title="Facebook Profile">FB</a>
+    
+    <a href="tel:+923421033637" class="fab call" title="Call Now">📞</a>
+</div>
 
 </body>
 </html>
