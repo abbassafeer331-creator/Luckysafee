@@ -1,14 +1,65 @@
-<a href="APNA_DRIVE_LINK_YAHAN_DALEIN" style="
-    background-color: #FFD700; 
-    color: black; 
-    padding: 12px 25px; 
-    text-decoration: none; 
-    font-weight: bold; 
-    border-radius: 8px; 
-    display: block;
-    margin: 10px auto;
-    width: 80%;
-    text-align: center;
-">
-    📂 MERA PORTFOLIO
-</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safeer Abbas - Expert Editor</title>
+    <style>
+        body {
+            background-color: #000; /* Black Background */
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #007BFF;
+            box-shadow: 0 0 20px #007BFF;
+            margin-top: 20px;
+        }
+        h1 { margin-top: 15px; font-size: 28px; }
+        .sub-title { color: #007BFF; font-weight: bold; letter-spacing: 1px; }
+        .description { padding: 0 20px; color: #ccc; font-size: 14px; }
+        
+        /* Buttons Style */
+        .btn {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 15px auto;
+            padding: 12px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-fb { background-color: #007BFF; color: white; }
+        .btn-portfolio { background-color: #FFD700; color: black; } /* Golden Portfolio Button */
+        
+        .btn:hover { transform: scale(1.05); opacity: 0.9; }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: right; color: #7cfc00; font-size: 30px;">★</div>
+
+    <img src="https://abbassafeer331-creator.github.io/Luckysafee/profile.jpg" alt="Safeer Abbas" class="profile-img">
+
+    <h1>Safeer Abbas</h1>
+    <p class="sub-title">EXPERT PHOTO & VIDEO EDITOR</p>
+    
+    <p class="description">
+        Creative designs aur high-quality video editing ke liye mujhse rabta karein. 
+        Waris, Safeer aur Sami ki dosti ki kahaniyan dekhne ke liye portfolio check karein.
+    </p>
+
+    <a href="https://www.facebook.com/share/18Fm7E5qS4/" class="btn btn-fb">Visit My Facebook</a>
+
+    <a href="APNA_GOOGLE_DRIVE_LINK_YAHAN_DALEIN" class="btn btn-portfolio">📂 MERA PORTFOLIO DEKHEIN</a>
+
+</body>
+</html>
